@@ -352,14 +352,14 @@ def main():
                             metrics_col1, metrics_col2 = st.columns(2)
                             
                             with metrics_col1:
-                                st.metric("Bat Swing Speed", f"{bat_metrics['swing_speed']:.1f} mph")
-                                st.metric("Swing Duration", f"{bat_metrics['swing_duration']:.3f} s")
-                                st.metric("Swing Angle", f"{bat_metrics['swing_angle']:.1f}°")
+                                st.metric("Bat Swing Speed", f"{bat_metrics['swing_speed']:.1f} mph", help="Recruiter/Pundit/Analyst: Faster bat swing speed correlates with better offensive performance. Analysts use this to predict a player's ability to generate power and make solid contact with the ball, which is crucial for scoring runs.")
+                                st.metric("Swing Duration", f"{bat_metrics['swing_duration']:.3f} s", help="Recruiter/Pundit/Analyst: Shorter swing duration can indicate quick reflexes and better timing. This is valuable for evaluating a player's ability to handle high-speed pitches and adjust to different pitch types.")
+                                st.metric("Swing Angle", f"{bat_metrics['swing_angle']:.1f}°", help="Recruiter/Pundit/Analyst: The swing angle can reveal whether a player tends to hit ground balls, line drives, or fly balls. Understanding this helps in projecting the type of hitter the player is and their potential role in the team.")
                             
                             with metrics_col2:
-                                st.metric("Total Distance", f"{bat_metrics['total_distance']:.1f} ft")
-                                st.metric("Vertical Distance", f"{bat_metrics['vertical_distance']:.1f} ft")
-                                st.metric("Horizontal Distance", f"{bat_metrics['horizontal_distance']:.1f} ft")
+                                st.metric("Total Distance", f"{bat_metrics['total_distance']:.1f} ft", help="Recruiter/Pundit/Analyst: The total distance of the swing can reflect the reach and the potential power of the swing. Longer swings may generate more power but could also be slower, so balance is key.")
+                                st.metric("Vertical Distance", f"{bat_metrics['vertical_distance']:.1f} ft", help="Recruiter/Pundit/Analyst: Analyzing the vertical distance helps in understanding a player's swing plane. A proper swing plane is essential for making consistent contact and driving the ball effectively.")
+                                st.metric("Horizontal Distance", f"{bat_metrics['horizontal_distance']:.1f} ft", help="Recruiter/Pundit/Analyst: Horizontal distance shows how far the bat travels across the strike zone. This can help in assessing the player's ability to cover the plate and hit pitches located in different parts of the zone.")
                             
                             st.warning("⚠️ Note: These bat swing metrics are approximate and based on video analysis.")
                         else:

@@ -234,7 +234,7 @@ def calculate_bat_metrics(bat_frames):
     swing_angle = math.degrees(math.atan(vertical_distance / horizontal_distance)) if horizontal_distance > 0 else 0
 
     return {
-        "swing_speed": swing_speed*41.33*5.5*1.2,
+        "swing_speed": swing_speed*41.33*5.5*1.15,
         "swing_angle": swing_angle,
         "total_distance": total_distance*32,
         "swing_duration": swing_duration*0.4,

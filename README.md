@@ -1,6 +1,6 @@
 # MLB Home Run Analysis
 
-<a href="https://img.shields.io/badge/license-MIT-blue.svg" target="_blank" rel="noopener noreferrer">![Open Source License</a>](LICENSE)
+<a href="https://img.shields.io/badge/license-MIT-blue.svg" target="_blank" rel="noopener noreferrer">![Open Source License](LICENSE)</a>
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Welcome to the MLB Home Run Analysis app! This application provides an in-depth 
 
 ## Website
 
-Visit the app: [MLB Home Run Analysis](#) (https://diamond-eye.streamlit.app/)
+Visit the app: <a href="https://diamond-eye.streamlit.app/" target="_blank" rel="noopener noreferrer">MLB Home Run Analysis</a>
 
 ## Methodology
 
@@ -47,11 +47,3 @@ Visit the app: [MLB Home Run Analysis](#) (https://diamond-eye.streamlit.app/)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-We welcome contributions! Please read the [CONTRIBUTING](CONTRIBUTING.md) guidelines for more details.
-
-## Contact
-
-For any questions or support, please visit our <a href="https://data.att.com/products-and-services/self-service/askAT-and-T" target="_blank" rel="noopener noreferrer">support page</a>.
